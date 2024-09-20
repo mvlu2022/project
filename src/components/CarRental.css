@@ -1,0 +1,61 @@
+.car-rental {
+    background-image: url('CarRental.png');
+    background-size: cover;
+    padding: 80px;
+    color: #3861d3;
+  }
+  
+  .booking-form, .car-list, .passenger-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 80px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .car-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .car-list li {
+    padding: 10px;
+    background-color: #333;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .car-list li:hover {
+    background-color: #444;
+  }
+  

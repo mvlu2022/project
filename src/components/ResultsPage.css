@@ -1,0 +1,26 @@
+.results-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .results-section {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  

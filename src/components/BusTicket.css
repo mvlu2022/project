@@ -1,0 +1,103 @@
+/* Style for the overall bus ticket booking section */
+.bus-ticket-booking {
+  background-image: url('Bus.png');
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+  color: #237c66;
+  min-height: 100vh;
+}
+
+/* Overlay for the background to improve readability */
+.background-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* Form styling for the booking form, bus list, and passenger form */
+.booking-form, .bus-list, .passenger-form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling individual form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Input and select fields styling */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Button styles */
+button {
+  padding: 12px 25px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Bus list styling */
+.bus-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bus-list li {
+  padding: 12px;
+  background-color: #333;
+  color: white;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.bus-list li:hover {
+  background-color: #444;
+}
+
+/* Passenger form details */
+.passenger-form h3 {
+  margin-top: 0;
+}
+
+/* Responsive styling for better usability on mobile */
+@media (max-width: 768px) {
+  .bus-ticket-booking {
+    padding: 20px;
+  }
+
+  input, select {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  button {
+    padding: 10px 20px;
+  }
+}

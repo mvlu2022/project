@@ -1,0 +1,41 @@
+.invisible-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background: transparent;
+    z-index: 1000; /* used for to keep header in the top*/
+
+}
+
+.logo img{
+    width: 30px;
+    height: 40px;
+
+}
+
+.header-buttons button{
+    background: none;
+    border: none;
+    color: aqua;
+    padding: 5px 30px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+.header-buttons img{
+    width: 30px;
+    height: 40px;
+}
+
+.header-buttons button:hover{
+    text-decoration: blue;
+}
+
+header .logo img{
+    pointer-events: none;
+}
