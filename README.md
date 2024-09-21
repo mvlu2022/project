@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+There is no database used test only mock dataset which is specific for every module here steps are given-
+1.user have to change directory to get reposetory as "cd ticket-booking".
+
+2.To run this program as "npm start" then it select a port automaticaly and if default port is busey then it will ask you the next number of port only you will say "yes" or "no" then it will give a localhost ip address to run that. user can simply run as "ctr + click" or copy that ip and paste in your browser.
+
+3.now user will see an interface which home page interface there only have invisible header in left corner there is a "logo" by A latter image that is "Abhishek Traveling" and in right side you will see 5 button which is 'Home', 'Bus', 'Train', 'Car' 'About' and a search bar with "From , To, Date and Budget" and search button with validation. In this program i have not used database only work on "mock data" you can fill any data HomePage's Search bar. when you click on search button then you will land on a page there will Some Travel Package you will get as all image button when you click any image of button then it will take on detail form you can cancel and if you want to book that package then fill your detail in form and book your ticket when you click on submit then a alert box will open saying your ticket booked.
+
+4.when you click on Bus icon button then you will land on Bus Ticket Booking interface there you can select your journy here i used mock data so in search bar you have give specific data then it will work otherwise it will say no route found. so that you have to enter as give data. "*From = andheri, To = pali hill *" and date and  you can select type of seat as Ac, Sleeper, Seating. and there is seat selection option that is optional you can choose your seat. when you click on search busses there will show some busses form mock data you can easely book bus form there.
+
+5.when you click on Train icon button then you will land on Train Ticket Booking interface there you can select your journy here i used mock data so in search bar you have give specific data then will work otherwise it will say no route found. so that you have to enter as give data. "*From = Mumbai, To = Kota *" fist latter should be capital and date and  you can select type of compartment as Ac, Sleeper, General. when you click on search train there will show some trains from mock data you can easely book trian form there.
+
+6.when you click on car icon button then you will land on car rentla interface there you can select your journy here i used mock data so in search bar you have give specific data then will work otherwise it will say no route found. so that you have to enter as give data. "*From = andheri, To = navi mumbai *" and date and  you can select type of car as 5-seater, 7-seater, SUV, Taxi, Prime. when you click on search car there will show some cars from mock data you can easely book car form there.
+
+7. if you want to concat me then you can go on About page there menssioned my contact detail you can contact easy.
+   
